@@ -2,7 +2,10 @@
 layout: post
 title:  "Hello World"
 date:   2017-01-21 14:23:34 +0200
-categories: learning programming advice
+categories:
+    - learning
+    - programming
+    - advice
 ---
 The quintessential beginning to every programmer's journey.
 

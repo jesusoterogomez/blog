@@ -18,7 +18,7 @@ permalink: :year/:title
 title: Callbacks & Layouts
 email: hello@jesusoterogomez.com
 description: >
-  This is my (probably shameful) first attempt of actually writing a blog that could
+  This is my (probably shameful) first attempt of writing a blog that could
   be of interest to humans.
 baseurl: ""
 url: "https://jesusoterogomez.com"

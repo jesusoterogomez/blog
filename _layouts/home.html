@@ -3,9 +3,6 @@ layout: default
 ---
 
 <div class="home">
-
-  <!-- <h1 class="page-heading">Posts</h1> -->
-  
   {{ content }}
 
   <ul class="post-list">
@@ -13,16 +10,35 @@ layout: default
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        <h2 class="post-link-title">
+          <a class="post-link link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
-        <p>
+
+        <div class="post-excerpt">
           {{post.excerpt}}
-        </p>
+        </div>
+
+        <ul class="post-tags">
+          <i class="fa fa-tag"></i>
+          {% for category in post.categories %}
+            <li>{{category}}</li>
+          {% endfor %}
+        </ul>
+        
       </li>
+      <div class="shadow-bar"></div>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  <div class="text-center">
+  More content is coming your way soon, be the first to know.
+  <br>Subscribe via
+  <a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fhttps%3A%2F%2Fjesusoterogomez.com%2Fblog%2Ffeed.xml'  target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-logo-white_2x.png' alt='follow us in feedly' width='22' height='22'>&nbsp;feedly</a> or <a href="{{ "/feed.xml" | relative_url }}">
+    <i class="fa fa-feed"></i>
+    RSS
+    </a>
+  </div>
+
+  
 
 </div>
