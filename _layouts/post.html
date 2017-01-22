@@ -14,8 +14,12 @@ layout: no-footer
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+  
+  {% include sharing_buttons.html title=page.title %}
 
   {% if site.disqus_shortname %}
-    {% include disqus_comments.html %}
+    <div class="comment-section">
+      {% include disqus_comments.html %}
+    </div>
   {% endif %}
 </article>

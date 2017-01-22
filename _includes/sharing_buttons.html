@@ -1,0 +1,75 @@
+<script>
+  (function() {
+  if (window.__twitterIntentHandler) return;
+  var intentRegex = /twitter\.com\/intent\/(\w+)/,
+      windowOptions = 'scrollbars=yes,resizable=yes,toolbar=no,location=yes',
+      width = 550,
+      height = 320,
+      winHeight = screen.height,
+      winWidth = screen.width;
+
+  function handleIntent(e) {
+    e = e || window.event;
+    var target = e.target || e.srcElement,
+        m, left, top;
+
+    while (target && target.nodeName.toLowerCase() !== 'a') {
+      target = target.parentNode;
+    }
+
+    if (target && target.nodeName.toLowerCase() === 'a' && target.href) {
+      m = target.href.match(intentRegex);
+      if (m) {
+        left = Math.round((winWidth / 2) - (width / 2));
+        top = 0;
+
+        if (winHeight > height) {
+          top = Math.round((winHeight / 2) - (height / 2));
+        }
+
+        window.open(target.href, 'intent', windowOptions + ',width=' + width +
+                                           ',height=' + height + ',left=' + left + ',top=' + top);
+        e.returnValue = false;
+        e.preventDefault && e.preventDefault();
+      }
+    }
+  }
+
+  if (document.addEventListener) {
+    document.addEventListener('click', handleIntent, false);
+  } else if (document.attachEvent) {
+    document.attachEvent('onclick', handleIntent);
+  }
+  window.__twitterIntentHandler = true;
+}());
+</script>
+
+
+<script>
+    function facebookShare(url, title, descr, image, winWidth, winHeight) {
+        var winTop = (screen.height / 2) - (winHeight / 2);
+        var winLeft = (screen.width / 2) - (winWidth / 2);
+
+        window.open('http://www.facebook.com/sharer.php?u=' + url,
+        'sharer', 'top=' + winTop + ',left=' + winLeft +
+        ',toolbar=0,status=0,width=' + winWidth + ',height=' + winHeight);
+    }
+</script>
+
+<div class="sharing-widget">
+    <div class="please">
+    If you found this to be interesting <br>or remotely useful, don't forget to share it :)
+    </div>
+    <div class="twitter-sharing button">
+        <a href="https://twitter.com/intent/tweet?text=I just read &quot;{{include.title}}&quot; on Callbacks %26 Layouts, and you probably should too. {{ page.url | absolute_url }}">
+        <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
+        Tweet</a>
+    </div>
+
+    <div class="facebook-sharing button">
+        <a href="javascript:facebookShare('{{page.url | absolute_url}}', '{{include.title}}', 'I just read &quot;{{include.title}}&quot; on Callbacks %26 Layouts, and you probably should too.', 'http://goo.gl/dS52U', 520, 350)">
+          <span class="icon icon--facebook">{% include icon-facebook.svg %}</span>
+          Share
+        </a>
+    </div>
+</div>

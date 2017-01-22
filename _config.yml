@@ -15,7 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 
 permalink: :year/:title
-
 title: Callbacks & Layouts
 email: hello@jesusoterogomez.com
 description: >
@@ -23,12 +22,12 @@ description: >
   be of interest to humans.
 baseurl: ""
 url: "https://jesusoterogomez.com"
-twitter_username: jekyllrb
-github_username:  jesusoterogomez
 website_url: https://jesusoterogomez.com
-author: "Jesús Otero"
 
+twitter_username: jesusoterog
+github_username:  jesusoterogomez
 disqus_shortname: jesusoterogomez-blog
+author: "Jesús Otero"
 
 # Build settings
 markdown: kramdown

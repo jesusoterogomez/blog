@@ -213,8 +213,7 @@
 
 .post-content {
   font-family: $gotham-book;
-  margin-bottom: $spacing-unit;
-
+  margin-bottom: $spacing-unit*2;
   h2 {
     font-size: 32px;
 
@@ -238,4 +237,47 @@
       font-size: 18px;
     }
   }
+}
+
+/**
+ * Comments
+ */
+
+#disqus_thread {
+  min-height: 300px;
+}
+
+.sharing-widget {
+  width: 100%;
+  margin-bottom: $spacing-unit;
+  text-align: center;
+  .please {
+    font-size: 80%;
+    line-height: 20px;
+    font-family: $gotham-book;
+    opacity: 0.8;
+    margin-bottom: $spacing-unit/2;
+
+  }
+  .button {
+    a {
+      display: inline-block;
+      padding: $spacing-unit/2 $spacing-unit;
+    }
+    margin: 0 $spacing-unit/4;
+    border: 1px solid white;
+    display: inline-block;
+  }
+}
+
+.icon--twitter {
+  position: relative;
+  top: -1px;
+  left: -1px;
+}
+
+.icon--facebook {
+  position: relative;
+  top: -1px;
+  left: 5px;
 }
