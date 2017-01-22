@@ -28,8 +28,7 @@ github_username:  jesusoterogomez
 website_url: https://jesusoterogomez.com
 author: "Jesús Otero"
 
-disqus:
-  - shortname: jesusoterogomez
+disqus_shortname: jesusoterogomez-blog
 
 # Build settings
 markdown: kramdown
