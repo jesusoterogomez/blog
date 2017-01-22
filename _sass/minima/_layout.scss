@@ -359,6 +359,15 @@
   }
 }
 
+@include media-query($on-palm) {
+  .post-link-title {
+    &:before {
+      display: none;
+    }
+  }
+}
+
+
 .post-meta {
   opacity: 0.8;
 }
