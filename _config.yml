@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-permalink: :year/:month/:day/:title
+permalink: :year/:title
 
 title: Callbacks & Layouts
 email: hello@jesusoterogomez.com
@@ -27,6 +27,9 @@ twitter_username: jekyllrb
 github_username:  jesusoterogomez
 website_url: https://jesusoterogomez.com
 author: "Jesús Otero"
+
+disqus:
+  - shortname: jesusoterogomez
 
 # Build settings
 markdown: kramdown
