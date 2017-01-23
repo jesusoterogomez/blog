@@ -23,6 +23,7 @@ description: >
 baseurl: ""
 url: "https://jesusoterogomez.com"
 website_url: https://jesusoterogomez.com
+google_analytics: UA-34051372-2
 
 twitter_username: jesusoterog
 github_username:  jesusoterogomez
