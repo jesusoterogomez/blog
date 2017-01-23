@@ -113,11 +113,17 @@ a {
  */
 blockquote {
   color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  border-left: 4px solid #A03F9D;
+  padding: $spacing-unit/2;
   padding-left: $spacing-unit / 2;
-  font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic;
+  font-family: $gotham-light;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  // font-style: italic;
+  // 
+  background: rgba(0, 0, 0, 0.2);
+  // opacity: 0.95;
 
   > :last-child {
     margin-bottom: 0;

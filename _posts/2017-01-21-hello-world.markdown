@@ -9,9 +9,11 @@ categories:
 ---
 The quintessential beginning to every programmer's journey.
 
+> Just for context, a *"Hello, World!"* is a computer program that displays the text "Hello, World!". It's a very small program that is often used to illustrate the basic syntax of a programming language.
+
 It represents how simple it is to take off. Meant to avoid scaring you from trying and delving deeper.
 
-Is it really a good start?.
+Is it really such a good start?.
 
 {% highlight js %}
 function start() {
@@ -29,44 +31,10 @@ Sure, tutorials, quizzes and examples will fill your neurons with useful informa
 
 The issue might be going only as far as the directions take you.
 
-Motivation is the key to keep learning, and one of the best ways to stay motivated is to have your own goals.
+Motivation is the key to keep learning, and one of the best ways to stay motivated is to set your own goals and work towards them.
 
 Programming is usually driven by problems; you, me, and everybody else has them, and trying to solve a problem that matters to you is one of the best ways to apply your new found knowledge or find out that you need new tools to tackle them.
 
 Next time you want to learn something, consider making your first step to pick a goal. Something small, achievable, but meaningful to you.
 
 And most importantly, don't stop at hello world.
-<!-- Start with something small -->
-
-
-<!-- Next time you start something, be sure to make it your own. -->
-
-
-<!-- something that speaks to you -->
-
-
-<!-- controversially, I'm going to say. -->
-
-
-<!-- Probably what comes after: motivation to continue. -->
-
-<!-- Now that you have this new shiny tool under your belt, it's time to actually make it work for you. -->
-
-<!-- Programming is often driven by problems; people create things to have less of them -->
-
-<!-- The outcome will always be a result of the effort you put down to achieve your goals (Applies to everything). -->
-
-
-<!-- Starting by setting clear goals, whether you want to create your own app, or solve a problem, -->
-
-<!-- Next time you start something, be sure to make the first step yours. -->
-
-
-<!-- I'm picking this topic to start my first blog about programming, career, frontend and any ideas that (will) come to mind. -->
-
-<!-- Developers are people that extract motivation from challenges,  -->
-
-<!-- Don't stop at hello world, -->
-
-<!-- Low hanging fruit -->
-
