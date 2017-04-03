@@ -102,7 +102,9 @@
   // font-size: 90%;
   padding: $spacing-unit/2 0;
   padding-bottom: 0;
-  background: rgba(0,0,0,0.2);
+  background: #232840;
+  z-index: 10000;
+  // rgba(0,0,0,0.2);
   
   &-bottom {
     font-family: $gotham;
@@ -234,9 +236,14 @@
 .post-content {
   font-family: $gotham-book;
   margin-bottom: $spacing-unit*2;
+
+  p {
+    margin: $spacing-unit 0;
+  }
+
   h2 {
     font-size: 32px;
-
+    font-family: $gotham;
     @include media-query($on-laptop) {
       font-size: 28px;
     }
@@ -244,6 +251,7 @@
 
   h3 {
     font-size: 26px;
+    font-family: $gotham;
 
     @include media-query($on-laptop) {
       font-size: 22px;
@@ -315,8 +323,9 @@
   position: absolute;
   top: 76px;
   width: 100%;
-  bottom: 165px;
+  bottom: 120px;
   overflow: scroll;
+  padding-bottom: $spacing-unit*2;
   &.no-footer {
     bottom: 0;
     padding-bottom: 0;
