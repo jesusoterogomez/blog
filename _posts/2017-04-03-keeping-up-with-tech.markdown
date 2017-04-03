@@ -37,7 +37,7 @@ If you like frontend development, you could borrow some twitter handles from [Fr
 There are also amazing blogs and reading lists that might put some interesting ideas or tools into your radar. For example, I'm a religious reader of [WDLR](WDRL by Anselm Hanneman), it's a weekly curated list of things happening in web development; I find it to be a very quick and enjoyable morning read. I often find interesting topics in the [Marvel blog](https://blog.marvelapp.com/) and new ideas and inspiration in [Frontendfront](https://frontendfront.com/)
 
 
-### Why?
+### What next?
 
 With all that exploration. A few things might have caught your attention.
 It's time to decide why it's worth investing time on learning/using/implementing them.
