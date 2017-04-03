@@ -24,8 +24,7 @@ So. If mostly everyone is having this problem?,  how does a *mere mortal* like u
 #### Unpopular opinion time: We don't!
 *(...or maybe just to a certain extent)*
 
-
-We don't have the luxury of spending all of our time on chasing and learning every shiny new thing that comes out. You should strive for refining and complementing your existing skills.
+We don't have the luxury of spending all of our time on chasing and learning about every shiny new thing that comes out. You should strive for refining and complementing your existing skills.
 
 But you still need that sense of discovery to become a better programmer. You have to train yourself to pick tools that have a positive effect on what you do or want.
 
@@ -54,6 +53,7 @@ You should always be open to welcoming new things that:
 
 Whatever the reason is. You need to keep it present. And make sure that it helps you obtain results, and that it makes sense to you to invest time in it.
 
+
 ### Choosing the right tool for the job.
 
 Often, you will find different tools that can help you achieve the same (or similar) result. 
@@ -76,11 +76,13 @@ It's rather difficult to give pointers on what to compare if I'm not mentioning 
 - does it have what I need out of the box?. Is it customizable if it doesn't?
 - does it look like a promising technology that will still be relevant/exist some time down the line?
 
+
 ### To put it short
 
 Even though we have uncountable options in the market for the solutions we may need. It doesn't mean that we have to "keep up" with this fast-evolving ecosystem. We should strive to refine our skills and keep exploring without committing to a tool just because it's the latest and greatest, but because we have evaluated them based on informed decisions and picked the right tool for the task at hand.
 
 By no means, I'm implying that a more subjective approach is wrong. But I guess that like me, there are a lot of people that don't seem to set aside free time for exploration, and would like to get the most bang for their buck. After all, time is gold :)
+
 
 ### Sharing is caring!
 
