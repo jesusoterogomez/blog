@@ -79,6 +79,92 @@ a.link {
     }
 }
 
+
+.post-content ul {
+    margin-bottom: $spacing-unit;
+}
+
+
+.post-content h3 {
+    position: relative;
+    &:before {
+        content: '';
+        display: block;
+        height: 120%;
+        width: 4px;
+        top: -10%;
+        left: -15px;
+        position: absolute;
+        @include gradient(0%, 15%);
+    }
+}
+
+.post-content a {
+    color: #FFF;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    @include transition(0.2s);
+    user-select: none;
+
+    &:after {
+        @include transition(0.2s);
+        @include gradient(0%, 100%);
+        position: absolute;
+        left: -3px;
+        right: -3px;
+        top: -1px;
+        content: "";
+        display: block;
+        transform-origin: center bottom;
+        opacity: 1;
+        z-index: -1;
+        transform: scale(1, 0.15);
+        bottom: -2px;
+        @media screen and (min-width: 480px) {
+            bottom: 0;
+            opacity: 0.2;
+            transform: scale(1, 0.1);
+        }
+    }
+
+    &:before {
+        height: 2px;
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: -3px;
+        right: -3px;
+        display: block;
+        background: #FFF;
+        @include transition(0.5s);
+        z-index: 1;
+
+        opacity: 0;
+        @media screen and (min-width: 480px) {
+            opacity: 1;
+        }
+    }
+
+    &:hover {
+        &:before {
+            @include transition(0.2s);
+            opacity: 0;
+        }
+
+        &:after {
+            z-index: -1;
+            transform: scale(1, 1);
+            @include transition(0.2s);
+            opacity: 1;
+            transform-origin: center bottom;
+            pointer-events: none;
+        }
+    }
+}
+
 .shadow-bar {
   display: block;
   width: 100%;

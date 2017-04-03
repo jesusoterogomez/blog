@@ -28,7 +28,7 @@ But you still need that sense of discovery to become a better programmer. You ha
 
 ### How?
 
-Good resources!.
+Good resources!
 
 It's always a good idea to follow influencers in your areas of interest. They will most likely have something smart to say, and have a pretty good idea of where the technology is heading.
 
@@ -53,10 +53,11 @@ I believe you should always be open to welcoming new things that:
 Whatever the reason is. You need to keep it present. And make sure that it helps you obtain results, be more productive and get closer to your goals.
 
 
-### Choosing the right tool for the job.
+### Choosing the right tool for the job
 
 Often, you will find different tools that can help you achieve the same (or similar) result. 
 Examples of this are:
+
 - Browserify vs. Webpack
 - Npm vs. Yarn
 - Gulp vs. Grunt
