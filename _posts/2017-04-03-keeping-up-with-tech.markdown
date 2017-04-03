@@ -2,6 +2,7 @@
 layout: post
 title:  Keeping up with technology
 date:   2017-01-23 14:23:34 +0200
+excerpt: You and I know that it's never easy to be up-to-date with all the new cool tools being published every day. What can we do about it?
 categories:
     - web development
     - technology
