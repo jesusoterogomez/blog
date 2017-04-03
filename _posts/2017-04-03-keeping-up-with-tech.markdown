@@ -9,6 +9,8 @@ categories:
     - frameworks
 ---
 
+<img src="../media/2017-04-03-toolbelt.png" alt="The toolbelt!">
+
 There are gazillions of new frameworks, tools, and new best practices everyday in the web development world, and more acronyms than you and I will be able to remember.
 Probably, by the time you have finished reading this post (It's short, I swear) someone will have published a new `something.js`.
 
