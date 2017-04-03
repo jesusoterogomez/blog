@@ -14,7 +14,7 @@ categories:
 There are gazillions of new frameworks, tools, and new best practices everyday in the web development world, and more acronyms than you and I will be able to remember.
 Probably, by the time you have finished reading this post (It's short, I swear) someone will have published a new `something.js`.
 
-There is a funny rant about this situation [here](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f). It's a conversation between a guy wanting to get a small project done, and the other one suggesting the stack he should use (I bet you already know how it goes).
+There is a funny rant about this situation [here](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f){:target="_blank"}. It's a conversation between a guy wanting to get a small project done, and the other one suggesting the stack he should use (I bet you already know how it goes).
 
 So. If mostly everyone is having this problem?, how does a *mere mortal* like us keep up with this fast-evolving ecosystem?.
 
@@ -32,9 +32,9 @@ Good resources!
 
 It's always a good idea to follow influencers in your areas of interest. They will most likely have something smart to say, and have a pretty good idea of where the technology is heading.
 
-If you like frontend development, you could borrow some twitter handles from [Frontendrescue](https://uptodate.frontendrescue.org/) and start stalking some of them :)
+If you like frontend development, you could borrow some twitter handles from [Frontendrescue](https://uptodate.frontendrescue.org/){:target="_blank"} and start stalking some of them :)
 
-There are also amazing blogs and reading lists that might put some interesting ideas or tools into your radar. For example, I'm a religious reader of [WDLR](WDRL by Anselm Hanneman), it's a weekly curated list of things happening in web development; I find it to be a very quick and enjoyable morning read. I often find interesting topics in the [Marvel blog](https://blog.marvelapp.com/) and new ideas and inspiration in [Frontendfront](https://frontendfront.com/)
+There are also amazing blogs and reading lists that might put some interesting ideas or tools into your radar. For example, I'm a religious reader of [WDLR](WDRL by Anselm Hanneman){:target="_blank"}, it's a weekly curated list of things happening in web development; I find it to be a very quick and enjoyable morning read. I often find interesting topics in the [Marvel blog](https://blog.marvelapp.com/){:target="_blank"} and new ideas and inspiration in [Frontendfront](https://frontendfront.com/){:target="_blank"}
 
 
 ### What next?
