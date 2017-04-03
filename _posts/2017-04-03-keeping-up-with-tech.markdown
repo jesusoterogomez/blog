@@ -14,12 +14,9 @@ categories:
 There are gazillions of new frameworks, tools, and new best practices everyday in the web development world, and more acronyms than you and I will be able to remember.
 Probably, by the time you have finished reading this post (It's short, I swear) someone will have published a new `something.js`.
 
-
 There is a funny rant about this situation [here](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f). It's a conversation between a guy wanting to get a small project done, and the other one suggesting the stack he should use (I bet you already know how it goes).
 
-
-So. If mostly everyone is having this problem?,  how does a *mere mortal* like us keep up with this fast-evolving ecosystem?.
-
+So. If mostly everyone is having this problem?, how does a *mere mortal* like us keep up with this fast-evolving ecosystem?.
 
 #### Unpopular opinion time: We don't!
 *(...or maybe just to a certain extent)*
@@ -27,6 +24,7 @@ So. If mostly everyone is having this problem?,  how does a *mere mortal* like u
 We don't have the luxury of spending all of our time on chasing and learning about every shiny new thing that comes out. You should strive for refining and complementing your existing skills.
 
 But you still need that sense of discovery to become a better programmer. You have to train yourself to pick tools that have a positive effect on what you do or want.
+
 
 ### How?
 
@@ -41,17 +39,18 @@ There are also amazing blogs and reading lists that might put some interesting i
 
 ### Why?
 
-With all that exploration. A few things might have caught your attention, and it's time to why it's worth investing time on learning/using/implementing them.
+With all that exploration. A few things might have caught your attention.
+It's time to decide why it's worth investing time on learning/using/implementing them.
 
-You should always be open to welcoming new things that:
+I believe you should always be open to welcoming new things that:
 
-- could improve a project you're working on.
-- might solve a specific problem you're having right now or might solve a problem you've had in the past in a better way.
+- Could improve a project you're working on.
+- Might solve a specific problem you're having right now or a problem you've had in the past in a better way.
 - It's something that could save you time.
 - It's something that you have been wanting to experiment with.
-- interest you (duh!). 
+- Interest you (duh!). 
 
-Whatever the reason is. You need to keep it present. And make sure that it helps you obtain results, and that it makes sense to you to invest time in it.
+Whatever the reason is. You need to keep it present. And make sure that it helps you obtain results, be more productive and get closer to your goals.
 
 
 ### Choosing the right tool for the job.
@@ -82,7 +81,7 @@ It's rather difficult to give pointers on what to compare if I'm not mentioning 
 
 Even though we have uncountable options in the market for the solutions we may need. It doesn't mean that we have to "keep up" with this fast-evolving ecosystem. We should strive to refine our skills and keep exploring without committing to a tool just because it's the latest and greatest, but because we have evaluated them based on informed decisions and picked the right tool for the task at hand.
 
-By no means, I'm implying that a more subjective approach is wrong. But I guess that like me, there are a lot of people that don't seem to set aside free time for exploration, and would like to get the most bang for their buck. After all, time is gold :)
+By no means, I'm implying that a more subjective approach is wrong. But I guess that like me, there are a lot of people that don't seem to be able to set aside free time for exploration, and would like to get the most bang for their buck. After all, time is gold :)
 
 
 ### Sharing is caring!
