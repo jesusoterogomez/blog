@@ -62,7 +62,7 @@ Examples of this are:
 - Npm vs. Yarn
 - Gulp vs. Grunt
 - SCSS vs. LESS
-- <I name it> vs. <You name it>
+- I name it vs. You name it
 
 If you already answered some of the "whys" above. It should be very simple to choose between options that seem like good candidates for your end goal.
 
