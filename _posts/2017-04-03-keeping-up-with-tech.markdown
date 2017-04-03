@@ -58,23 +58,24 @@ Whatever the reason is. You need to keep it present. And make sure that it helps
 
 Often, you will find different tools that can help you achieve the same (or similar) result. 
 Examples of this are:
-- browserify vs. webpack
-- npm vs. yarn
-- gulp vs. grunt
-- scss vs. less
+- Browserify vs. Webpack
+- Npm vs. Yarn
+- Gulp vs. Grunt
+- SCSS vs. LESS
+- <I name it> vs. <You name it>
 
-If you already answered some of the "Whys" above. It should be very simple to choose between options that seem like good candidates for your end goal.
+If you already answered some of the "whys" above. It should be very simple to choose between options that seem like good candidates for your end goal.
 
 What is left is *mostly* objective reasoning and comparing what's the right tool for you.
 
 It's rather difficult to give pointers on what to compare if I'm not mentioning anything specific. But normally if I have to make this choice. I compare things like:
 
-- documentation & learning curve
-- performance
-- platform/browser compatibility
-- how active is the project
-- does it have what I need out of the box?. Is it customizable if it doesn't?
-- does it look like a promising technology that will still be relevant/exist some time down the line?
+- Documentation & learning curve
+- Performance
+- Platform/browser compatibility
+- How active the project is
+- Does it have what I need out of the box?. Is it customizable if it doesn't?
+- Does it look like a promising technology that will still be relevant/exist some time down the line?
 
 
 ### To put it short
